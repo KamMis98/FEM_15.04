@@ -13,6 +13,6 @@ def FunBaz(n):
         df= (lambda x: -1/2 + 0*x ,   lambda x: 0.5  + 0*x )
         
     else: 
-        raise Exception("Blad w funkcji FunkcjeBazowe().")
+        raise Exception("Blad w funkcji FunBaz()!")
 
     return f,df
